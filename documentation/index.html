@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>App  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="App  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          App Docs
+        </a>
+         (54% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">App Reference</a>
+      <img class="carat" src="img/carat.png" />
+      App  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/AccessToken.html">AccessToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/AccessToken/Fields.html">– Fields</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Post.html">Post</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Post/Fields.html">– Fields</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/PostController.html">PostController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/User/Fields.html">– Fields</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UserController.html">UserController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:v3App6configXwGSQC7Configs6Config_">config</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:v3App4dropXwGSQC5Vapor7Droplet_">drop</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Config.html">Config</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Creator.html">Creator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Droplet.html">Droplet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/QueryRepresentable.html">QueryRepresentable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Request.html">Request</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/StructuredDataWrapper.html">StructuredDataWrapper</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            
+            <p>Hey there!</p>
+
+<p>This repo is a <code>vapor-2</code> (a <code>swift</code> framework) app template with auth routes, and it&rsquo;s ready to be deployed to <code>Heroku</code>.</p>
+
+<p>The main purpose of this is to serve me as a starting point for my apps and to inspire you to hack your own! 
+<br>Or please feel free to just use this as a starting template for your apps! </p>
+
+<p>You may also freely use any code from this repo without attribution. 
+<br>If you want to reach out, please feel free to drop me a line here:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">account</span> <span class="o">=</span> <span class="p">[</span><span class="s">"true"</span><span class="p">,</span> <span class="s">"metal"</span><span class="p">,</span> <span class="s">"of"</span><span class="p">,</span> <span class="s">"steel"</span><span class="p">]</span><span class="o">.</span><span class="nf">joined</span><span class="p">(</span><span class="nv">separator</span><span class="p">:</span> <span class="s">"."</span><span class="p">)</span>
+<span class="k">let</span> <span class="nv">host</span> <span class="o">=</span> <span class="p">[</span><span class="s">"gmail"</span><span class="p">,</span> <span class="s">"com"</span><span class="p">]</span><span class="o">.</span><span class="nf">joined</span><span class="p">(</span><span class="nv">separator</span><span class="p">:</span> <span class="s">"."</span><span class="p">)</span>
+<span class="k">let</span> <span class="nv">res</span> <span class="o">=</span> <span class="p">[</span><span class="n">account</span><span class="p">,</span> <span class="n">host</span><span class="p">]</span><span class="o">.</span><span class="nf">joined</span><span class="p">(</span><span class="nv">separator</span><span class="p">:</span> <span class="s">"@"</span><span class="p">)</span>
+</code></pre>
+
+<p>Cheers,<br>
+Dan
+<br><a href="http://ios-engineer.com">http://ios-engineer.com</a>
+<br><br></p>
+<h2 id='deployment-demo' class='heading'>Deployment demo</h2>
+
+<p><a href="http://youtu.be/iSt3Izg9VAs?hd=1"><img src="https://www.evernote.com/l/AYXacetE4ElF9bMDpK0SPBS-uprA2jtp2nMB/image.png" alt="Watch the video"></a></p>
+<h2 id='features' class='heading'>Features</h2>
+
+<ul>
+<li><code>Heroku</code> / <code>postgres</code> ready</li>
+<li><code>HTTPS</code> only, <code>HTTP</code> requests are rejected with 403 forbidden</li>
+<li>Script for quick change of crypto.json keys</li>
+<li>Pre-populated with 4 user accounts - <code>u1</code>, <code>u2</code>, <code>u3</code> and <code>u4</code></li>
+<li>* passwod is <code>123</code> - same for all of them</li>
+<li>* comes with pre-populated access tokens - <code>u1 token</code>, <code>u2 token</code>, <code>u3 token</code> and <code>u4 token</code></li>
+</ul>
+<h2 id='what-39-s-included' class='heading'>What&rsquo;s included</h2>
+<h4 id='public-routes' class='heading'>Public routes:</h4>
+
+<ul>
+<li><code>GET</code> <code>/</code>, <code>/hello</code>, <code>/hello/name</code></li>
+<li>* hello routes for quick tests</li>
+<li><code>wss://host/ws</code></li>
+<li>* a websocket connection, will reverse and return whatever you send it</li>
+</ul>
+<h4 id='auth-routes' class='heading'>Auth routes:</h4>
+
+<ul>
+<li><code>POST</code> /register</li>
+<li>* send <code>username</code> and <code>password</code> as form-data</li>
+<li><code>POST</code> /login</li>
+<li>* send credentials as HTTP basic auth</li>
+<li><code>POST</code> /logout</li>
+<li>* auth protected, removes token</li>
+</ul>
+<h4 id='token-protected' class='heading'>Token protected:</h4>
+
+<ul>
+<li><code>GET</code> /me</li>
+<li>* will return current username</li>
+<li><code>GET</code> /users</li>
+<li>* will return list of all users (except for the one making the request)</li>
+</ul>
+<h2 id='deploy-steps' class='heading'>Deploy steps</h2>
+
+<p>There&rsquo;s an option to use <code>vapor toolbelt</code>, but I prefer to do this manually:</p>
+
+<ul>
+<li>prepare heroku app</li>
+<li>* create app</li>
+<li>* add postgres database</li>
+<li>* settings - add vapor buildpack: <a href="https://github.com/vapor-community/heroku-buildpack">https://github.com/vapor-community/heroku-buildpack</a></li>
+<li><code>git clone https://github.com/truemetal/vapor-2-heroku-auth-template.git</code> to your mac</li>
+<li>generate crypto keys by running <code>./crypto.sh</code></li>
+<li><code>git commit -am &quot;new crypto keys&quot;</code></li>
+<li><code>git remote add heroku &lt;your heroku app git url&gt;</code></li>
+<li><code>git push heroku master</code></li>
+</ul>
+<h5 id='and-to-move-it-to-your-github-bitbucket' class='heading'>and to move it to your github / bitbucket</h5>
+
+<ul>
+<li><code>git remote rm origin</code></li>
+<li><code>git remote add origin &lt;your repo path&gt;</code></li>
+</ul>
+<h2 id='contribution' class='heading'>Contribution</h2>
+
+<p>Contributions are welcome! Please just open an issue or send a pull request.</p>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2017 <a class="link" href="https://www.grumsenit.dk/" target="_blank" rel="external">Jakob Grumsen</a>. All rights reserved. (Last updated: 2017-09-23)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

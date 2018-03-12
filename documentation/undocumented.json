@@ -1,0 +1,327 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Config+Setup.swift",
+      "line": 5,
+      "symbol": "config",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Config+Setup.swift",
+      "line": 9,
+      "symbol": "Config.setup()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Controllers/PostController.swift",
+      "line": 11,
+      "symbol": "PostController.init(droplet:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Controllers/UserController.swift",
+      "line": 13,
+      "symbol": "UserController.init(droplet:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Droplet+Setup.swift",
+      "line": 4,
+      "symbol": "drop",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Droplet+Setup.swift",
+      "line": 8,
+      "symbol": "Droplet.setup()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Droplet+Setup.swift",
+      "line": 15,
+      "symbol": "Droplet.seedData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Helpers/Extensions+StringEnum.swift",
+      "line": 3,
+      "symbol": "StructuredDataWrapper.get(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Helpers/Extensions+StringEnum.swift",
+      "line": 7,
+      "symbol": "StructuredDataWrapper.set(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Helpers/Extensions+StringEnum.swift",
+      "line": 15,
+      "symbol": "QueryRepresentable.filter(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Helpers/Extensions+StringEnum.swift",
+      "line": 24,
+      "symbol": "Creator.string(_:optional:unique:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Helpers/Extensions+StringEnum.swift",
+      "line": 30,
+      "symbol": "Creator.int(_:optional:unique:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/AccessToken.swift",
+      "line": 10,
+      "symbol": "AccessToken.Fields",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/AccessToken.swift",
+      "line": 10,
+      "symbol": "AccessToken.Fields.token",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/AccessToken.swift",
+      "line": 10,
+      "symbol": "AccessToken.Fields.user_id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/AccessToken.swift",
+      "line": 11,
+      "symbol": "AccessToken.token",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/AccessToken.swift",
+      "line": 12,
+      "symbol": "AccessToken.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/AccessToken.swift",
+      "line": 14,
+      "symbol": "AccessToken.init(token:userId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/AccessToken.swift",
+      "line": 19,
+      "symbol": "AccessToken.init(row:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/AccessToken.swift",
+      "line": 24,
+      "symbol": "AccessToken.makeRow()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/AccessToken.swift",
+      "line": 31,
+      "symbol": "AccessToken.user",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/AccessToken.swift",
+      "line": 53,
+      "symbol": "AccessToken.makeJSON()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/AccessToken.swift",
+      "line": 62,
+      "symbol": "AccessToken.generate(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/Post.swift",
+      "line": 25,
+      "symbol": "Post.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/Post.swift",
+      "line": 26,
+      "symbol": "Post.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/Post.swift",
+      "line": 27,
+      "symbol": "Post.location",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/Post.swift",
+      "line": 28,
+      "symbol": "Post.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/Post.swift",
+      "line": 30,
+      "symbol": "Post.init(row:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/Post.swift",
+      "line": 37,
+      "symbol": "Post.init(title:content:location:userId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/Post.swift",
+      "line": 44,
+      "symbol": "Post.makeRow()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/Post.swift",
+      "line": 78,
+      "symbol": "Post.init(json:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/Post.swift",
+      "line": 88,
+      "symbol": "Post.makeJSON()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/Post.swift",
+      "line": 101,
+      "symbol": "Post.owner",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/User.swift",
+      "line": 26,
+      "symbol": "User.email",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/User.swift",
+      "line": 27,
+      "symbol": "User.password",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/User.swift",
+      "line": 28,
+      "symbol": "User.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/User.swift",
+      "line": 29,
+      "symbol": "User.isAdmin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/User.swift",
+      "line": 31,
+      "symbol": "User.init(row:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/User.swift",
+      "line": 38,
+      "symbol": "User.init(email:name:isAdmin:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/User.swift",
+      "line": 44,
+      "symbol": "User.makeRow()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/User.swift",
+      "line": 78,
+      "symbol": "User.init(json:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/User.swift",
+      "line": 86,
+      "symbol": "User.makeJSON()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/User.swift",
+      "line": 98,
+      "symbol": "User.posts",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Models/User.swift",
+      "line": 103,
+      "symbol": "User.register(email:password:name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Routes.swift",
+      "line": 7,
+      "symbol": "Droplet.setupRoutes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master/Sources/App/Routes.swift",
+      "line": 18,
+      "symbol": "Droplet.setupPublicRoutes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/jakobgrumsen/vapor-2-heroku-auth-template-master"
+}

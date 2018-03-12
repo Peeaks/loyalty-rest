@@ -1,0 +1,20 @@
+{
+    "server": "engine",
+    "client": "engine",
+    "console": "terminal",
+    "log": "console",
+    "hash": "bcrypt",
+    "cipher": "crypto",
+
+    "middleware": [
+                   "error",
+                   "date",
+                   "file",
+                   "log",
+                   "heroku"
+                   ],
+
+    "commands": [
+                 "prepare"
+                 ]
+}
